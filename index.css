@@ -35,11 +35,12 @@ h1 {
     text-transform: uppercase;
     font-weight: 700;
     color: rgb(200, 175, 255);
+    padding: 16px;
 
 }
 
 .tabs p {
-    padding: 16px;
+    padding: 8px;
 }
 
 .tabs p:hover {
@@ -53,8 +54,8 @@ h1 {
 
 .line {
     height: 3px;
-    width: 200px;
+    width: 100%;
     position: absolute;
-    top: 0;
+    top: 98px;
     background-color: rgb(231, 231, 231);
 }
