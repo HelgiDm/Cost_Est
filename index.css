@@ -142,6 +142,7 @@ h1 {
 .slider {
     width: 100%;
     position: relative;
+    margin-bottom: 16px;
 }
 
 .slider .bar {
@@ -213,7 +214,7 @@ h1 {
     font-weight: 800;
     letter-spacing: 0.02rem;
     color: rgb(83, 49, 156);
-    
+    position: relative;
 }
 
 .card .top-section {
@@ -251,4 +252,20 @@ h1 {
 .card button:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+.card .save-header {
+    color: white;
+    background: linear-gradient(
+        90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 10, 74, 1) 100%,
+    rgba(83, 49, 156, 1) 100%
+    );
+    position: absolute;
+    top: -24px;
+    left: 0;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
